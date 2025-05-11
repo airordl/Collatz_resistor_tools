@@ -23,16 +23,20 @@ and management of multiple instances in parallel.
 
 
 To run the main experiment:
-python coco.py
+
+- python coco.py
 
 To test a specific number:
-python test_solution.py
+
+- python test_solution.py
 
 Launch multiple background processes using the shell script:
 
-source coco.sh
-coco 5    # Launch 5 background processes
+- source coco.sh
+
+- coco 5    # Launch 5 background processes
 
 Kill all coco.py processes
-cocon     
+
+- cocon     
 
